@@ -1,11 +1,14 @@
 # Netflix GPT
 
 - Steps :
- 
+
     - Create React App
     - Configured TailwindCSS
     - Header
     - Login Form
+    - Sign Up Form 
+    - Form Validation 
+    - useRef Hook
 
 # Features
 - Login/Sign Up
