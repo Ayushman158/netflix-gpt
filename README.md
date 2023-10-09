@@ -17,7 +17,19 @@
     - Updated user profile
     - Redirected App to browse after signup/signin
     - Fetch Movies from TMDB Movies
-
+    - bugFix: Sign up user 
+    - bugFix: if user not logged in redirect /browse to login and vice-versa
+    - Unsubscribed to the onAuthStatechange call back
+    - Added hardcoded values for Constant files
+    - Get Data from TMDB 'Now playing' movies list API 
+    - Create a custom hook to fetch TMDB API
+    - Custom Hook for Now playing movie fetch
+    - Create movieSlice
+    - update store with movies Data
+    - Fetch container for Trailer video
+    - Update Store with trailer video data
+    - Embedded the youtube video and make it autoplay and mute
+    
 # Features
 - Login/Sign Up
     - Sign in / Sign Up form
