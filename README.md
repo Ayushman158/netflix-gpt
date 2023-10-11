@@ -29,6 +29,7 @@
     - Fetch container for Trailer video
     - Update Store with trailer video data
     - Embedded the youtube video and make it autoplay and mute
+    - Added Tailwind classes to make main container look awesome
     
 # Features
 - Login/Sign Up
