@@ -14,10 +14,7 @@ const usePopularMovies = () => {
       );
       const json = await data.json();
       dispatch(addPopularMovies(json.results));
-      console.log(json.results);
-    } catch (e) {
-      console.log("Error: ", e.message);
-    }
+    } catch (e) {}
   };
 
   useEffect(() => {

@@ -14,10 +14,7 @@ const useTopRatedMovies = () => {
       );
       const json = await data.json();
       dispatch(addTopRatedMovies(json.results));
-      console.log(json.results);
-    } catch (e) {
-      console.log("Error: ", e.message);
-    }
+    } catch (e) {}
   };
 
   useEffect(() => {
